@@ -1,0 +1,18 @@
+1.Function is a set of code which is specified to perform some task so that it helps to reuse this part of code again and again just by calling function using function name.
+2.Only when its called the code in function runs.
+3.def function_name:
+    pass 
+  this will create a function
+4.function is defined only once whereas the function-call we can reuse many times when ever we need to call in the code.
+5.A global scope is defining the variables above functions at the start of the code where as the local scope is for the variables defined inside a loop or inside a function. Global scope variables are accessible to all functions and local variables are only accessible to that functions.
+6.when return statement is executed, all the local variables of that function are erased from memory.
+7.return is used to return some kind of output from the function. Yes it is possible to return a value in expression.
+8.None is the default return when there is no return statement in fn.
+9.use 'global' keyword to refer to global varibale 
+10.class 'NoneType'
+11.if its a package, import will call the package and in the following code lines we can use methods of that package.
+12.>>import spam
+    >>spam.bacon()
+    
+13.Use try:,except:, else: and finally: blocks to handle all exceptions/code crashes because of errors.
+14.try is used to put all code lines where there is a possibility of exception and except block is used to catch all the raised exceptions and handle them in except block.
