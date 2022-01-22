@@ -1,0 +1,3 @@
+The two values of boolean data type are True and False. they are written as True and False
+The three types of boolean operator are and, or and not
+
