@@ -1,0 +1,10 @@
+1. Empty dictionary code >>dic = {}
+2. >>dic={}
+    >>dic['foo'] = 42
+    >>print(dic['foo']) o/p:42
+3.The distinction between the dictionary and list is a dictionary is a key-value pair, where key should be unique and values can be repetitive whereas a list is an ordered collection of elements.
+4.spam['foo'] if spam is {'bar': 100}? we will get a key error.
+5.both are same
+6.'cat' in spam checks for key but 'cat' in spam.values() is a specific value we are searching for in the dictionary.
+7.spam['color']=spam.get('color','black')
+8.pretty print is more readable format printing. It can be done using pprint() function from pprint module.

@@ -1,0 +1,8 @@
+shutil.copy will copy a specific file from source to destination where as shutil.copytree() will copy the entire directory from source to destination.
+2.os.rename() is used to rename the file names
+3.shutil will permanently delete the files where as send2trash will move the file to recycle bin in computer.
+4.zipFile.open() is the method equivalent to open() in files
+5.>>import shutil
+    >>import glob
+    >>for i in glob.glob(*.pdf):
+        shutil.copy(i,destination)

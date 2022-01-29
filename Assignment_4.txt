@@ -1,0 +1,21 @@
+1.[] is for defining list collection.
+2.spam[2]='hello'
+
+spam=['a','b','c','d']
+3.spam[int(int('3' * 2) / 11)] => spam[3] => 'd'
+4.spam[-1]='d'
+5.spam[:2]=['a','b']
+
+bacon=[3.14,'cat',11,'cat',True]
+6.bacon.index('cat')=1
+7.bacon.append(99) = [3.14,'cat',11,'cat',True,99]
+8.bacon.remove('cat')=[3.14,11,'cat',True,99]
+9.list concatenation operator + and replication is *
+10.list append() is used to add element at last whereas the insert() to add element at any specified location.
+11.pop() and remove() are the 2 methods to delete elemetns from list
+12.li=[1,2,3] and str="123" these values retrieval is same but string is immutable whereas list is mutable.
+13.list is mutable whereas tuple is immutable. i.e, tuple values cannot be modified once defined but can redefine complete new vales.
+14.tup=(42)
+15.tupl=(23,34,45,56,'sid') this can be converted to list using li=list(tupl) and can be converted back to tuple using tupl=tuple(li)
+16.A tuple can also contain list as one of its values.tu=(23,['s',12,56],'pandiri')
+17.copy.copy() is a shallow copy and it perform operations in the same memory block whereas copy.deepcopy() creates a copy in seperate chunk of memory and perform operations.

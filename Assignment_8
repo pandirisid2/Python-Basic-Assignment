@@ -1,0 +1,7 @@
+1.we will have to install PyInputPlus seperately using pip.>>pip install PyInputPlus
+2.because PyInputPlus is not included in the default packages in python.
+3.inputInt() is for taking integer inputs where as inputFloat() is for taking floating inputs.
+4.>>import pyinputplus as pyip
+    >>pyip.inputNum('Enter num:',min=0,max=99)
+6.Not allowed to enter one more time
+7.default value is taken when blank is entered 3 times

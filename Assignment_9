@@ -1,0 +1,9 @@
+1.Relative path does not include complete path to a specific folder instead the current folder is taken as base reference and consequent path is taken.
+2.absolute path starts with home folder in the operating system which is C:/ drive in most of the cases.
+3.os.getcwd() is used to get current working directory and os.chdir() is used to change the path from one directory to other directory.
+4.single dot . refers the actual path of target folder starts from the current folder where as double dots .. refer the actual path of the target folder starts from previous folder.
+5.base-name : spam.txt and dir-name : C:\bacon\eggs
+6.'r' , 'w' and 'a' are the modes a file can be opened with.
+7.existing contents of file are cleared and a new file is openend with 'w' mode.
+8.read() will read only 1 line where as readlines() will read a group of lines.
+9.shelf value resembles like a dictionary

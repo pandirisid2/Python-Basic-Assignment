@@ -1,0 +1,16 @@
+1.An escape character is backslash(\) followed by a character.We use them Inorder to ignore the next character or move to new row, tab-space..
+2.escape character n stands for next line and moves to next line, t stands for move a tab space.
+3.inorder to include backslash character in string, use \\
+4."How'l moving castle" single quote not escaped because the string is enclosed in double quotes.
+5.\r is used to get new rows instead of \n
+6.'Hello, world!'[1] = 'e'
+    'Hello, world!'[0:5] = 'Hello'
+    'Hello, world!'[:5] = 'Hello'
+    'Hello, world!'[3:] = 'lo, world!'
+7.'Hello'.upper() = 'HELLO'
+    'Hello'.upper().isupper() = True
+    'Hello'.upper().lower() = 'hello'
+8.'Remember, remember, the fifth of july.'.split() = ['Remember,' , 'remember,' , 'the' , 'fifth' , 'of', 'july.']
+    '-'.join('There can only one.'.split()) = 'There-can-only-one.'
+9.ljust() is for left and rjust() is for right justification. center() is for centering a string.
+10.string.strip() is used to remove trail and rear spaces.
